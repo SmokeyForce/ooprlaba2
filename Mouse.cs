@@ -40,5 +40,9 @@ namespace WpfTilt
 			sw.WriteLine(Price);
 			sw.WriteLine(Colour);
 		}
+		public override string selfDescribe()
+		{
+			return "I am " + FullName + " mouse";
+		}
 	}
 }
